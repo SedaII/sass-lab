@@ -5,3 +5,14 @@ body {
   align-items: center;
   justify-content: center;
 }
+body button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 0;
+}
+body button:focus {
+  outline: none;
+}
+body button:active {
+  transform: scale(0.98);
+}
